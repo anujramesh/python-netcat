@@ -1,4 +1,4 @@
-# Python Netcat Alternative
+# Python Netcat
 Netcat is a program that is used to establish a Transmission Control Protocol (TCP) or User Datagram Protocol (UDP) between two devices, usually a client and a server.</br>
 The server will be running netcat in listener mode:</br>
 `python3 netcat.py -t 127.0.0.1 -p 1234 -l -c`</br>
