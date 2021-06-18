@@ -30,7 +30,7 @@ if __name__ == '__main__':
         description='BHP Net Tool',
         formatter_class=argparse.RawDescriptionHelpFormatter,
 ```
-- Example usage, as shown below, is provided that the program will display when the user invokes it with `--help`
+- Example usage, as shown below, that the program will display when the user invokes it with `--help`
 ```
         epilog=textwrap.dedent('''Example:
             netcat.py -t 192.168.1.108 -p 5555 -l -c # command shell
@@ -69,8 +69,5 @@ if __name__ == '__main__':
     nc = NetCat(args, buffer.encode())
     nc.run()
 ```
-
-
-
 ## References
 Black Hat Python 2nd Edition
