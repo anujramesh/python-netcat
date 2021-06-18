@@ -1,6 +1,6 @@
 # Python Netcat
 Netcat is the "swiss-army knife" of networking utilities. Notably, it can be used to establish a Transmission Control Protocol (TCP) or User Datagram Protocol (UDP) between two devices, usually a client and a server.</br></br>
-Reimplementing netcat featues in python will not only give us a deeper understanding of some of these netcat features, but there may also arise some fringe case where a computer does not have netcat but it has python, and so we can run this program through a command line.
+Reimplementing netcat featues in python will not only give us a deeper understanding of some of these features, but there may also arise some fringe case where a computer does not have netcat but it has python, and so we can run this program through a command line.
 
 ## Usage
 The server will be running netcat in listener mode:</br>
